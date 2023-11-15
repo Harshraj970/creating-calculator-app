@@ -1,0 +1,122 @@
+/* :root{
+  --white:rgba(234, 227, 219, 1);
+  --voilet:rgba(100, 114, 153, 1);
+  --digits:rgba(59, 70, 100, 1);
+
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(59, 70, 100, 1);
+}
+
+.first1 {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 34%;
+    border-radius: 10px;
+}
+.first1 .first{
+    height: 12vh;
+    width: 30vw;
+    background-color: rgba(24, 31, 50, 1);
+    color:aliceblue;
+    text-align: right;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    font-size: 28px;
+    /* overflow-x: scroll; */
+    /*letter-spacing: 5px; */ 
+}
+
+.second {
+    position: relative;
+    height: 50vh;
+    width: 30vw;
+    background-color: rgba(37, 45, 68, 1);
+    margin-top: 23px;
+    margin-left: 34%;
+    border-radius: 10px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.row1 .wh {
+    background-color: rgba(100, 114, 153, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+}
+
+.box {
+    color: rgba(59, 70, 100, 1);
+    font-family: 'Inter';
+    background-color: rgba(234, 227, 219, 1);
+    height: 6.2vh;
+    width: 4.5vw;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 800;
+    font-size: 26px;
+    border-color: rgba(37, 45, 68, 1);
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.row5 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.box1 {
+    background-color: rgba(100, 114, 153, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 6.2vh;
+    width: 11.5vw;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 800;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+.row5 .sh {
+    background-color: rgba(209, 63, 48, 1);
+    font-size: 24px;
+}
+
+.head {
+    position: relative;
+    color: white;
+    font-weight: 800;
+    font-family: 'Inter';
+    font-size: 24px;
+    top: 110px;
+    margin-left: 35vw;
+}
